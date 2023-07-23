@@ -11,3 +11,11 @@ Essenzialmente ci sono 3 tipologie di utenti:
 ## Google Calendar API
 Per poter utilizzare le API in fase di test bisogna creare un progetto in https://console.cloud.google.com/ ed impostare la "Schermata consenso OAuth". 
 Aggiornare le variabili nel file .env
+
+## Clonare il progetto
+Dopo aver clonato il progetto eseguire i seguenti comandi in ordine:
+- composer update
+- composer install
+- php artisan key:generate
+
+Dovrebbe crearsi il file .env che andrete a modificare per impostare le variabili per la connessione al db e per utilizzare le api di Google.
